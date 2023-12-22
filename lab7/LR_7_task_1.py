@@ -150,7 +150,7 @@ cities = [
 if __name__ == '__main__':
     # Пошук найкоротшого маршруту
     ant_colony = AntColony(distances, 20, 5, 100, 0.8, alpha=0.9, beta=0.4)
-    result = ant_colony.run(start=3)   # варіант 4
+    result = ant_colony.run(start=13)   # варіант 13
     print(f"Отриманий найкоротший шлях: {result[1]} км")
 
     # Виведення знайденого шляху
